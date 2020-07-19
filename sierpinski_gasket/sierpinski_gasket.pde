@@ -4,14 +4,14 @@ void setup() {
   size(870, 760);
   background(240);
   noLoop();
-  noStroke();
-  fill(128);
+  stroke(0);
+  noFill();
 }
 
 
 void draw() {
   float cx = width/2, cy = 500, l = 480;
-  gasket(cx, cy-l, cx-l*sqrt(3)/2, cy+l/2, cx+l*sqrt(3)/2, cy+l/2, 8);
+  gasket(cx, cy-l, cx-l*sqrt(3)/2, cy+l/2, cx+l*sqrt(3)/2, cy+l/2, 9);
 }
 
 
